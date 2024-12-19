@@ -1,0 +1,200 @@
+[
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/aabb.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/aabb.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/aabb.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/aabb.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/array.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/array.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/array.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/array.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/bitset.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/bitset.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/bitset.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/bitset.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/body.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/body.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/body.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/body.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/broad_phase.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/broad_phase.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/broad_phase.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/broad_phase.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/constraint_graph.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/constraint_graph.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/constraint_graph.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/constraint_graph.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/contact.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/contact.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/contact.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/contact.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/contact_solver.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/contact_solver.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/contact_solver.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/contact_solver.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/core.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/core.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/core.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/core.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/distance.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/distance.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/distance.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/distance.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/distance_joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/distance_joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/distance_joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/distance_joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/dynamic_tree.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/dynamic_tree.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/dynamic_tree.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/dynamic_tree.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/geometry.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/geometry.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/geometry.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/geometry.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/hull.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/hull.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/hull.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/hull.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/id_pool.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/id_pool.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/id_pool.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/id_pool.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/island.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/island.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/island.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/island.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/manifold.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/manifold.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/manifold.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/manifold.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/math_functions.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/math_functions.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/math_functions.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/math_functions.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/motor_joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/motor_joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/motor_joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/motor_joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/mouse_joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/mouse_joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/mouse_joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/mouse_joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/prismatic_joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/prismatic_joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/prismatic_joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/prismatic_joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/revolute_joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/revolute_joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/revolute_joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/revolute_joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/shape.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/shape.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/shape.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/shape.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/solver.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/solver.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/solver.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/solver.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/solver_set.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/solver_set.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/solver_set.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/solver_set.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/stack_allocator.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/stack_allocator.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/stack_allocator.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/stack_allocator.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/table.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/table.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/table.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/table.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/timer.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/timer.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/timer.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/timer.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/types.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/types.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/types.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/types.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/weld_joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/weld_joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/weld_joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/weld_joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/wheel_joint.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/wheel_joint.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/wheel_joint.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/wheel_joint.c.o"
+},
+{
+  "directory": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src",
+  "command": "/usr/bin/cc -DBOX2D_ENABLE_SIMD -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/../include -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-build/src -I/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src -std=gnu17 -fvisibility=hidden -ffp-contract=off -Werror -o CMakeFiles/box2d.dir/world.c.o -c /home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/world.c",
+  "file": "/home/evanwu03/projects/dohyo-template/src/_deps/box2d-src/src/world.c",
+  "output": "_deps/box2d-build/src/CMakeFiles/box2d.dir/world.c.o"
+}
+]

@@ -1,0 +1,14 @@
+# Target labels
+ sdl3-populate
+# Source files and their labels
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test.rule
+/home/evanwu03/projects/dohyo-template/src/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update.rule

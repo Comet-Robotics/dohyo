@@ -37,7 +37,13 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(imgui)
 
 # Add main executable
-add_executable(dohyo src/main.c)
+add_executable(dohyo src/main.c
+        src/graphics/graphics.c
+        src/graphics/graphics.h
+        src/physics/physics.c
+        src/physics/physics.h
+        src/graphics/circles.c
+        src/graphics/circles.h)
 
 # Add ImGui backend files
 target_sources(dohyo PRIVATE

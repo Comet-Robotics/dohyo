@@ -1,13 +1,26 @@
 #include "graphics.h"
-#include "circles.h"
+#include "geometry.h"
+#include "debugDraw.h"
+#include "math.h"
 
-#include <math.h>
+#include <stdio.h>
 #include <SDL3/SDL.h>
+#include <box2d/box2d.h>
 
 static float scale;
 
-static SDL_Window *window = NULL;
-static SDL_Renderer *renderer = NULL;
+static SDL_Window* window = NULL;
+static SDL_Renderer* renderer = NULL;
+
+SDL_Window* getWindow()
+{
+    return window;
+}
+
+float getScale()
+{
+    return scale;
+}
 
 void updateScale()
 {
@@ -21,33 +34,9 @@ void updateScale()
     scale = m * 0.75f;
 }
 
-float getScale()
-{
-    return scale;
-}
-
-SDL_Window* getWindow()
-{
-    return window;
-}
-
 SDL_Renderer* getRenderer()
 {
     return renderer;
-}
-
-SDL_FPoint cartesianToScreen(float x, float y)
-{
-    int width, height;
-    SDL_GetWindowSize(window, &width, &height);
-
-    const float scaledWidth = (float)width / scale;
-    const float scaledHeight = (float)height / scale;
-
-    x = (scaledWidth / 2.0f + x) * scale;
-    y = (scaledHeight / 2.0f + y) * scale;
-
-    return (SDL_FPoint){x, y};
 }
 
 bool initGraphics()
@@ -68,32 +57,37 @@ bool initGraphics()
 
     updateScale();
 
+    initDebugDraw();
+
     return true;
 }
 
 void renderDohyo()
 {
     // draw base of the dohyo
-    SDL_SetRenderDrawColor(renderer, 55, 53, 53, 255);
-    SDL_FPoint center = cartesianToScreen(0.0f, 0.0f);
-    drawFilledCircle(renderer, center.x, center.y, 0.36f * scale);
+    float x = 0.0f;
+    float y = 0.0f;
+    cartesianToScreen(&x, &y);
+    SDL_FColor color = {55, 53, 53, 255};
+    drawSolidCircle(color, x, y, 0.36f * scale);
 
     // draw the white border
-    SDL_SetRenderDrawColor(renderer, 225, 225, 225, 255);
-    drawCircleWidth(renderer, center.x, center.y, 0.385f * scale, 0.025f * scale);
+    color = (SDL_FColor){255, 255, 255, 255};
+    drawCircleWidth(color, x, y, 0.385f * scale, 0.025f * scale);
 
     // draw the shikiri lines
-    SDL_SetRenderDrawColor(renderer, 220, 149, 65, 255);
+    color = (SDL_FColor){220, 149, 65, 255};
 
     const float width = 0.01f * scale;
     const float height = 0.1f * scale;
-    center.x -= 0.05f * scale;
+    x -= 0.05f * scale + width / 2;
+    y -= height / 2;
 
-    SDL_FRect rect = (SDL_FRect){center.x - width/2, center.y - height/2, width, height};
-    SDL_RenderFillRect(renderer, &rect);
+    drawSolidRect(color, x, y, width, height);
 
-    rect.x += 0.1f * scale;
-    SDL_RenderFillRect(renderer, &rect);
+    x += 0.1f * scale;
+
+    drawSolidRect(color, x, y, width, height);
 }
 
 bool render()
@@ -102,6 +96,7 @@ bool render()
     SDL_RenderClear(renderer);
 
     renderDohyo();
+    debugDraw();
 
     SDL_RenderPresent(renderer);
 

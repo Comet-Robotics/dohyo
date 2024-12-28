@@ -42,8 +42,12 @@ add_executable(dohyo src/main.c
         src/graphics/graphics.h
         src/physics/physics.c
         src/physics/physics.h
-        src/graphics/circles.c
-        src/graphics/circles.h)
+        src/graphics/geometry.c
+        src/graphics/geometry.h
+        src/graphics/debugDraw.c
+        src/graphics/debugDraw.h
+        src/graphics/math.c
+        src/graphics/math.h)
 
 # Add ImGui backend files
 target_sources(dohyo PRIVATE

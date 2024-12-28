@@ -8,9 +8,10 @@
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 {
-    if (initGraphics() && initPhysics())
-        return SDL_APP_CONTINUE;
-    return SDL_APP_FAILURE;
+    initGraphics();
+    initPhysics();
+
+    return SDL_APP_CONTINUE;
 }
 
 SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event)

@@ -1,8 +1,10 @@
 #ifndef PHYSICS_H
 #define PHYSICS_H
-#include <stdbool.h>
+
+#include <box2d/box2d.h>
 
 #endif //PHYSICS_H
 
-bool initPhysics();
-bool destroyPhysics();
+void initPhysics();
+void destroyPhysics();
+b2WorldId getWorldId();
